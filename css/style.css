@@ -11,13 +11,14 @@ body{
     background: whitesmoke;
 }
 .continer{
-display:flex; /*per posar en linia ls imatges*/
+display:flexbox; /*per posar en linia ls imatges*/
 }
 .card{
     height: 500px;
     margin: 50px;
     box-shadow: 2px 2px 15px black;
     overflow: hidden;
+    display: flex;
 }
 img{
 height: 500px;
